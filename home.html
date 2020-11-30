@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mystyle.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="pr1">
+            <marquee> Praktek 1</marquee>
+            <h2>Tampil Tanggal</h2>
+            <button title ="click" type="button"
+            onclick="document.getElementById('demo').innerHTML=Date()">
+            Click gan
+            </button>
+            <p id="demo"></p>
+    </div>
+    
+    <div class="pr2">
+        <marquee> Praktek 2</marquee>
+        <h2>Javascript Statements</h2>
+        <p> Javascript code blocks are written between { and } </p>
+        <button title ="click" type="button" onclick="myFunction()">
+        Click WOY
+        </button>
+
+        <p id ="demo1"></p>
+        <p id ="demo2"></p>
+        <!-- <p class ="demo2"></p> GABISA-->
+        
+        <script>
+        function myFunction()
+        {
+            document.getElementById("demo1").innerHTML="woy!!!";
+            document.getElementById("demo2").innerHTML="woy!!!";
+
+        }
+        </script>
+    </div>
+
+    <!-- Emang sengaja di errorkan -->
+    <h1><marquee> Pratek 3 </marquee></h1>  
+    <div class="p3">
+        <h2> Javascript Konversi</h2>
+        <button type= "button" onclick="konversi()"> Klik </button>
+      
+        <p id="konversi"> </p>
+        <script>
+        function konversi()// Ini pembetulannya
+        {
+        var dollar =100;
+        var rupiah =15000;
+        var z = dollar * rupiah;
+        document.getElementById("konversi").innerHTML = z;
+        }
+        </script>
+    </div>
+</body>
+</html>

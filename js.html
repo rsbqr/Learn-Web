@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Object Javascript </title>
+</head>
+<body>
+        <script type="text/javascript">
+            let fighter11 = 
+            {
+            nama : "goku",
+            skill : 9,
+            tenaga :500,
+            pukul:function()
+            {
+                this.tenaga = this.tenaga - (5*this.skill);
+            },
+            makan:function(kalori)
+            {
+                this.tenaga=this.tenaga+(10*kalori);
+            }
+            };
+            console.log("nama fighter : "+fighter11.nama);
+            console.log("tenaga awal : "+fighter11.tenaga);
+            fighter11.pukul();
+            fighter11.pukul();
+            fighter11.pukul();
+            console.log("tenaga setelah 3x pukul: "+fighter11.tenaga);
+            fighter11.makan(35);
+            console.log("tenaga setelah makan : "+fighter11.tenaga);
+            
+        </script>
+</body>
+</html>
+
+<!-- //     <meta charset="utf-8" />
+//     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+//     <title>Page Title</title>
+//     <meta name="viewport" content="width=device-width, initial-scale=1">
+//     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+//     <script src="main.js"> </script> -->

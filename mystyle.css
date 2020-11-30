@@ -1,0 +1,239 @@
+.head
+{
+    
+    float: top;
+    text-align: center;
+}
+
+
+body 
+{
+    background-image: url("pic/bg-img.png");
+    margin-bottom: 20px;
+
+    /* background-color:lightblue; */
+}
+
+.jdl
+{
+    font-weight: bold;
+    display: inline;
+}
+
+.pr1
+{
+    border: 30px;
+background: aqua;
+}
+.cabang
+{
+    background:#cce5ff;
+    padding: 20px;
+
+}
+
+.nav
+{
+position: fixed;
+width: 100px;
+height: 100px;
+transition: width 1s;
+-webkit-transition: width 1s;
+}
+
+.nav:hover
+{
+    width: 400px;
+    
+}
+
+#form
+{
+    text-align: center;
+    border: 2px solid;
+    padding: 20px; 
+    font-size: 20px;    
+    /* width: 300px;  */
+}
+
+.fhead
+{
+    text-align: center;
+    font-weight: 200;
+    
+}
+
+#promosi
+{
+    position: relative;
+    /* -webkit-animation: mymove 3s infinite; Safari 4.0 - 8.0 */
+    animation: mymove 1s infinite;
+    -webkit-animation: mymove 1s infinite;
+    animation: mymove 1s infinite;
+    
+    margin: 50px;
+ background-color:azure;
+ font-style: italic;
+ font-weight: 1000;
+ text-decoration: underline;
+}
+/* 
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {right: 300px;}
+} */
+
+/* Standard syntax */
+@keyframes mymove {
+    0% {left: -100px;}
+    50% {left: 100px; }
+    100%{left: -100px;}
+}
+
+#p1
+{
+    border: 2px solid;
+    width: 250px;
+    padding: 20px;
+    line-height: 20px;
+}
+
+
+#p2
+{
+    border: 2px solid;
+    width: 250px;
+    padding: 20px;
+    line-height: 20px;
+}
+
+#p3
+{
+    border: 2px solid;
+    width: 250px;
+    padding: 20px;
+    line-height: 20px;
+}
+
+#p3
+{
+    border: 2px solid;
+    width: 250px;
+    padding: 20px;
+    line-height: 20px;
+}
+
+#p4
+{
+    border: 2px solid;
+    width: 250px;
+    padding: 20px;
+    line-height: 20px;
+}
+
+#p5
+{
+    border: 2px solid;
+    width: 250px;
+    padding: 20px;
+    line-height: 20px;
+    /* display: ruby; */
+    list-style: square;
+}
+
+#about
+{
+    margin: 50px;
+ background-color:red;
+ height: 0px;
+ width: 1305px;
+ text-decoration: underline;
+ line-height: 10%;
+}
+
+.cabang
+{
+    text-align: center;
+}
+
+.nav
+{
+    text-align: center;
+    
+}
+
+.footer
+{
+    padding: 20px;
+}
+
+.tpromosi
+{
+    /* background: #ff9999; */
+    padding: 20px;
+
+}
+ol {
+    /* background: #ff9999; */
+    padding: 20px;
+}
+
+ul {
+    background:aquamarine;
+    padding: 20px;
+}
+
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+}
+
+table
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:azure;
+    /* -webkit-animation: color 3s ease-in  0s infinite alternate running; */
+    -moz-animation: color 3s linear  0s infinite alternate running;
+    animation: color 3s linear  0s infinite alternate running;
+}
+/* Animasi + Prefix untuk browser */
+/* @-webkit-keyframes color {
+    0% { background-color:azure; }
+    32% { background-color:skyblue }
+    55% { background-color: darkcyan;}
+    76% { background-color:coral; }
+    100% { background-color:azure; }
+} */
+@-moz-keyframes color {
+    0% { background-color:azure; }
+    32% { background-color:skyblue }
+    55% { background-color: darkcyan;}
+    76% { background-color:coral; }
+    100% { background-color:azure; }
+}
+@keyframes color {
+    0% { background-color:azure; }
+    32% { background-color:skyblue }
+    55% { background-color: darkcyan;}
+    76% { background-color:coral; }
+    100% { background-color:azure; }
+}
+
+/*
+id itu #
+class itu .
+referensi animasi
+https://gist.github.com/tutweb/ae0b158069e5cd3b2a4f
+
+referensi transition
+https://www.malasngoding.com/tutorial-css3-part/
+
+referensi umum
+w3schools.com
+*/
